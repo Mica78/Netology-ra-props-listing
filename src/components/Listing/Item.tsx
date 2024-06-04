@@ -43,7 +43,7 @@ const Item = (props: TItemProps): JSX.Element | undefined => {
   }
 
   return (
-    <div className='item' key={item.listing_id}>
+    <div className='item'>
       <div className='item-image'>
         <a href={item.url}>
           <img
